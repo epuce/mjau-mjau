@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mjau mjau</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="background"></div>
+
+            <div class="content">
+                <h1>!Mjau Mjau!</h1>
+    
+                <h2>19. Septembra vakars</h2>
+    
+                <h3>Dress fancy 👠</h3>
+    
+                <h3>Good vibes only 🥳</h3>
+
+                <h3>Be there or be square 👋</h3>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        margin: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        padding: 16px;
+        height: 100vh;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: url('./background.jpg') no-repeat;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .content-wrapper {
+        position: relative;
+        width: min(100vw, 500px);
+        height: 100%;
+        color: #FFF;
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .content {
+        background: rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 24px;
+        border-radius: 16px;
+    }
+
+
+</style>
+</html>
